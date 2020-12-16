@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>B-REC Online Shopping Store</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <!-- Third party plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <style>
+        ul > li{margin-right:25px;font-weight:lighter;cursor:pointer}
+        li.active{border-bottom:3px solid silver;}
+
+        .item-photo{display:flex;justify-content:center;align-items:center;border-right:1px solid #f6f6f6;}
+        .menu-items{list-style-type:none;font-size:11px;display:inline-flex;margin-bottom:0;margin-top:20px}
+        .btn-success{width:100%;border-radius:0;}
+        .section{width:100%;margin-left:-15px;padding:2px;padding-left:15px;padding-right:15px;background:#f8f9f9}
+        .title-price{margin-top:30px;margin-bottom:0;color:black}
+        .title-attr{margin-top:0;margin-bottom:0;color:black;}
+        .btn-minus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0;}
+        .btn-plus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0;}
+        div.section > div {width:100%;display:inline-flex;}
+        div.section > div > input {margin:0;padding-left:5px;font-size:10px;padding-right:5px;max-width:18%;text-align:center;}
+        .attr,.attr2{cursor:pointer;margin-right:5px;height:20px;font-size:10px;padding:2px;border:1px solid gray;border-radius:2px;}
+        .attr.active,.attr2.active{ border:1px solid orange;}
+
+        @media (max-width: 426px) {
+            .container {margin-top:0px !important;}
+            .container > .row{padding:0 !important;}
+            .container > .row > .col-xs-12.col-sm-5{
+                padding-right:0 ;
+            }
+            .container > .row > .col-xs-12.col-sm-9 > div > p{
+                padding-left:0 !important;
+                padding-right:0 !important;
+            }
+            .container > .row > .col-xs-12.col-sm-9 > div > ul{
+                padding-left:10px !important;
+
+            }
+            .section{width:104%;}
+            .menu-items{padding-left:0;}
+        }
+    </style>
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-dark" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html">
+            <img src="img/logo.png" width="120" height="120"/>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link " href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link " href="shop.html">Shop</a></li>
+                <li class="nav-item"><a class="nav-link " href="dStore.html">Digital Music Store</a></li>
+                <li class="nav-item"><a class="nav-link " href="giveback.html">Give-Back Programs</a></li>
+                <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link " href="https://www.eatanga.info/index.html">Back-2-Main-Site</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- space-->
+<br/><br/><br><br/><br/><br/><br/><br><br/><br/><br>
+<!--Download Details page start-->
+<div class="row">
+    <div class="col-sm-3">
+        <div class="product-grid4">
+            <div class="product-image4">
+                <a href="docs/mechanical-licensing-agreement.doc" download="Mechanical licensing Agreement">
+                    <img class="pic-1" src="img/book1.png">
+                    <img class="pic-2" src="img/book1-1.png">
+                </a>
+            </div>
+            <div class="product-content">
+                <h3 class="title"><a href="docs/mechanical-licensing-agreement.doc" download="Mechanical licensing Agreement">Musical Mechanical License</a></h3>
+                <div class="price">
+                    $98.00
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-7">
+        <h4 class="home-headline"><span>Thank your for your purchase!</span></h4>
+        <p>This is a Microsoft word document </p>
+        <p>This document is used for registering the mechanical license to protect artistic works.</p>
+        <a type="button"  href="docs/mechanical-licensing-agreement.doc" download="Mechanical licensing Agreement" class="btn btn-warning btn-lg">Download</a>
+        <a type="button"  href="https://www.eatanga.info/brecStore/dStore.html" class="btn btn-warning btn-lg">Go Back to Store</a>
+    </div>
+</div>
+<!--Download details page finish-->
+
+<br/><br/><br><br/><br/>
+
+<!-- Footer-->
+<footer class="bg-dark py-5">
+    <div class="container"><div class="small text-center text-muted">Copyright © 2020 - B-Rec Stores</div></div>
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
